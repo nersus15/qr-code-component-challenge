@@ -1,0 +1,32 @@
+body{
+    background-color: #c4d8f4;
+    height: 100%;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card img{
+    width: 100%;
+    border-radius: inherit;
+}
+
+.card-body{
+    margin: 10px 20px;
+    text-align: center;
+}
+.card-body .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body .desc{
+    font-size: 16px;
+    color: grey;
+}
